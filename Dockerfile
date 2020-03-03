@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER Kevin McDermott <bigkevmcd@gmail.com>
 
-ENV KUBE_LATEST_VERSION="v1.16.3"
+ENV KUBE_LATEST_VERSION="v1.17.3"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl bash git openssh \
